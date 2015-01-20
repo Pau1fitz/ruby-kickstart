@@ -25,7 +25,7 @@ elsif
 elsif
 	num_books >20 && reads_books ==false
 	return "B"
-elsif
+else
 	num_books >20 && reads_books ==true
 	return "A"
 end

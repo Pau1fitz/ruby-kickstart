@@ -20,6 +20,18 @@
 
 def hi_hi_goodbye
   # your code here
+	puts "Choose a number please!"
+	answer = gets.chomp
+	number = answer.to_i
+		
+		unless answer == "bye" || answer == "Bye"
+
+		number.times do
+			puts "hi"
+		end
+		else
+			puts "Goodbye"
+		end
 end
 
 
